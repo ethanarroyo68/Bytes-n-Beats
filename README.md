@@ -1,10 +1,20 @@
-# Project Title
-
-Simple overview of use/purpose.
+# Bytes n' Beats
+This project is for an app that allows analysis, transcription, and AI explanation of music in the form of audio files.
 
 ## Description
+I want this to be a project where I explore my passion for music through programming. I want to finally teach myself music theory through coding the ideas behind into a program that allows you to analyze songs, transcribe them, and potentially even eventually integrate an AI that can answer technical questions about the output. In this way, I hope to also strengthen my understanding of different computer science concepts, such as algorithms, data structures, and more.
 
-An in-depth paragraph about your project and overview of use.
+## Modules
+### Module 1: Simple MIDI File Interpretation
+1. First, I need to be able to actually interpret some sort of audio to start to pull out melodies, rythym, etc.
+2. I will do this by starting with MIDI as the simplest form (in order to avoid the complex data science of signal processing, at least for now)
+
+### Module 2: Simple Monophonic Melody Interpretation
+1. Once the MIDI can be interpreted as data, a simple monophonic melody can be analyzed
+2. The easiest thing to do first would be to determine the key
+3. From then, possibly trying to discern the time signature (maybe)
+
+TBC...
 
 ## Getting Started
 
