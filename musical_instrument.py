@@ -14,7 +14,7 @@ class MusicalInstrument:
         """Return the western notation octave."""
         return (midi_note // 12) - 1
     
-    def print_frequencies(self):
+    def print_note_count(self):
         note_count = self.count_notes()
         for i in range(12):
             print(f'{self.note_names[i]} : {note_count[i]}')

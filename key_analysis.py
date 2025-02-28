@@ -7,5 +7,7 @@ midi_data = pretty_midi.PrettyMIDI("/s/bach/l/under/c835266433/Bytes-n-Beats/mid
 guitar_solo = MusicalInstrument(midi_data.instruments[0])
 guitar_solo.print_notation()
 print()
-print("Note frequencies:")
-guitar_solo.print_frequencies()
+print("How many times each note occurs:")
+guitar_solo.print_note_count()
+
+
